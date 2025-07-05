@@ -1,0 +1,19 @@
+{
+  "curInx": 0,
+  "data": [
+    {
+      "name": "font1",
+      "fonts": [
+        {
+          "name": "",
+          "range": "",
+          "content": ""
+        }
+      ],
+      "size": 12,
+      "bpp": 4,
+      "format": "lvgl",
+      "dir": ""
+    }
+  ]
+}

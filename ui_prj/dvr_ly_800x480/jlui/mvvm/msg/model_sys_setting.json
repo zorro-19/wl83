@@ -1,0 +1,418 @@
+{
+  "id": "K86KkALJBZLXWJwU",
+  "name": "model_sys_setting",
+  "type": "custom",
+  "desc": "系统设置页面的模型管理",
+  "attr": [],
+  "enable": true,
+  "properties": [
+    {
+      "id": "W0mwen1Nrph53QcH",
+      "name": "funkey4",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "关闭",
+      "model_id": "0x0029",
+      "use_system": false
+    },
+    {
+      "id": "isng1qkOf9DSSgpR",
+      "name": "funkey5",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "30s",
+      "model_id": "0x002A",
+      "use_system": false
+    },
+    {
+      "id": "mUelN8xz5YRFWJpq",
+      "name": "funkey6",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "60s",
+      "model_id": "0x002B",
+      "use_system": false
+    },
+    {
+      "id": "k8CCESLj8MbJ5FWY",
+      "name": "funkey7",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "120s",
+      "model_id": "0x002C",
+      "use_system": false
+    },
+    {
+      "id": "ZwqLcUYYzAjO4Cmw",
+      "name": "subpage_warning",
+      "desc": "warning词",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "warning",
+      "model_id": "0x002D",
+      "use_system": false
+    },
+    {
+      "id": "qdtyhmRbCe0nPM2s",
+      "name": "hide_viewdate",
+      "desc": "时钟子页面容器隐藏",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x002E",
+      "use_system": false
+    },
+    {
+      "id": "GZvwW8RHDjnBNfZ5",
+      "name": "hide_viewcarnum",
+      "desc": "车牌子页面",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x002F",
+      "use_system": false
+    },
+    {
+      "id": "3niMXgtl1xoYHvkP",
+      "name": "hide_viewlist",
+      "desc": "按键列表子页面",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x0030",
+      "use_system": false
+    },
+    {
+      "id": "iWkT8r1KHIPiuFoS",
+      "name": "hide_subpagewarning",
+      "desc": "子页面提示语",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x0031",
+      "use_system": false
+    },
+    {
+      "id": "nC9x8FUtHIq4xdxk",
+      "name": "show_viewdate",
+      "desc": "时钟子页面容器显示",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x0032",
+      "use_system": false
+    },
+    {
+      "id": "hNJDdXmlprxDgp8x",
+      "name": "show_viewcarnum",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x0033",
+      "use_system": false
+    },
+    {
+      "id": "LIUZ32ETpXBJQdSZ",
+      "name": "show_viewlist",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x0034",
+      "use_system": false
+    },
+    {
+      "id": "EWwu5tsovNNw8Nma",
+      "name": "show_subpagewarning",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x0035",
+      "use_system": false
+    },
+    {
+      "id": "gNCdZ5cshJkKx0o5",
+      "name": "hide_funkey5",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x0036",
+      "use_system": false
+    },
+    {
+      "id": "lwGcVKYJYKgGBKc2",
+      "name": "hide_funkey6",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x0037",
+      "use_system": false
+    },
+    {
+      "id": "xmr3FsKuqGmBjGHm",
+      "name": "hide_funkey7",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x0038",
+      "use_system": false
+    },
+    {
+      "id": "hRC0dEpz0St7hFWo",
+      "name": "show_funkey4",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x0039",
+      "use_system": false
+    },
+    {
+      "id": "fF04hojuXffMqZYN",
+      "name": "show_funkey5",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x003A",
+      "use_system": false
+    },
+    {
+      "id": "0BugBGA43ovTCSSs",
+      "name": "show_funkey6",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x003B",
+      "use_system": false
+    },
+    {
+      "id": "Is6T1eYMqvA7rHPb",
+      "name": "show_funkey7",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x003C",
+      "use_system": false
+    },
+    {
+      "id": "a1xLGqsd1xbzNlP3",
+      "name": "state_funkey4",
+      "desc": "default未选中 disable做高亮",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "model_id": "0x003D",
+      "use_system": false
+    },
+    {
+      "id": "DsWSUFHW1VLuQRuC",
+      "name": "state_funkey5",
+      "desc": "default未选中 disable做高亮",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "model_id": "0x003E",
+      "use_system": false
+    },
+    {
+      "id": "xoSUgaTUPKTJoMPI",
+      "name": "state_funkey6",
+      "desc": "default未选中 disable做高亮",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "model_id": "0x003F",
+      "use_system": false
+    },
+    {
+      "id": "ckXwL0AGVBtrlZOE",
+      "name": "state_funkey7",
+      "desc": "default未选中 disable做高亮",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "model_id": "0x0040",
+      "use_system": false
+    },
+    {
+      "id": "Im3OD6npgluvk705",
+      "name": "hide_funkey4",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x0041",
+      "use_system": false
+    },
+    {
+      "id": "9r2LeXea6Xkn9Pex",
+      "name": "subpage_warning_state",
+      "model_id": "0x006B",
+      "desc": "显示或隐藏系统设置子菜单警告语",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    }
+  ],
+  "methods": [],
+  "model_id": "0x0028"
+}

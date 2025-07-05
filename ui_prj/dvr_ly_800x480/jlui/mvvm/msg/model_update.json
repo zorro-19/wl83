@@ -1,0 +1,42 @@
+{
+  "id": "lsig0mRTG4UomDrO",
+  "name": "model_update",
+  "type": "custom",
+  "desc": "升级页面模型管理",
+  "attr": [],
+  "enable": true,
+  "properties": [
+    {
+      "id": "blmx70fmqu6RpKrY",
+      "name": "update_tips",
+      "desc": "升级提示语",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "update_tips",
+      "model_id": "0x0043",
+      "use_system": false
+    },
+    {
+      "id": "JX5meYqshESfwFmJ",
+      "name": "update_proce",
+      "desc": "升级进度",
+      "type": "int32_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": 1,
+      "model_id": "0x0044",
+      "use_system": false
+    }
+  ],
+  "methods": [],
+  "model_id": "0x0042"
+}

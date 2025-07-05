@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(lv_drivers)
+
+set(CMAKE_CXX_COMPILER_FORCED, ON)
+set(CMAKE_C_COMPILER_FORCED, ON)
+set(CMAKE_BUILD_TYPE, "Release")
+set(CMAKE_MAKE_PROGRAM, "mingw32-make.exe")
+set(CMAKE_C_COMPILER, "gcc.exe")
+set(CMAKE_CXX_COMPILER, "g++.exe")
+
+add_definitions(-DLV_USE_GUIBUILDER_SIMULATOR)
+
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR})
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/../)
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/../lvgl)
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/../lvgl/src)
+
+file(GLOB_RECURSE DRV_INC "lv_drivers/*.h" ) 
+file(GLOB_RECURSE DRV_SRC "lv_drivers/*.c" )
+
+add_library(drv ${DRV_SRC} ${DRV_INC} )

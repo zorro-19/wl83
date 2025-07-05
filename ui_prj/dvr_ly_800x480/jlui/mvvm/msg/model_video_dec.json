@@ -1,0 +1,147 @@
+{
+  "id": "zgKQPLlgICkQeKbZ",
+  "name": "model_video_dec",
+  "model_id": "0x007C",
+  "type": "custom",
+  "desc": "",
+  "attr": [],
+  "enable": true,
+  "properties": [
+    {
+      "id": "t27T4TKjxJjB0g0L",
+      "name": "file_type_img",
+      "model_id": "0x007D",
+      "desc": "",
+      "type": "int32_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": 0,
+      "use_system": false
+    },
+    {
+      "id": "zjH0o0BO3mCCQT3V",
+      "name": "video_time_lab",
+      "model_id": "0x007E",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "",
+      "use_system": false
+    },
+    {
+      "id": "vrD7tcWzP4oilh7s",
+      "name": "file_name_lab",
+      "model_id": "0x007F",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "",
+      "use_system": false
+    },
+    {
+      "id": "VWOpYaQ9ylliBt89",
+      "name": "media_info_lab",
+      "model_id": "0x0080",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "",
+      "use_system": false
+    },
+    {
+      "id": "bKgbFsWz5MfhvZIq",
+      "name": "sd_status_img",
+      "model_id": "0x0081",
+      "desc": "",
+      "type": "int32_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": 0,
+      "use_system": false
+    },
+    {
+      "id": "ViW23wIyKJFzgcYq",
+      "name": "play_status_img",
+      "model_id": "0x0082",
+      "desc": "",
+      "type": "int32_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": 0,
+      "use_system": false
+    },
+    {
+      "id": "iLEOSFFXTGXXrI0J",
+      "name": "video_cont_show",
+      "model_id": "0x0083",
+      "desc": "",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "xXB3OlOcigOdYOoP",
+      "name": "file_lock_show",
+      "model_id": "0x0084",
+      "desc": "",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "ZcfT4LljfK9J7KV6",
+      "name": "video_dec_options_lab",
+      "model_id": "0x0085",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "",
+      "use_system": false
+    }
+  ],
+  "methods": []
+}

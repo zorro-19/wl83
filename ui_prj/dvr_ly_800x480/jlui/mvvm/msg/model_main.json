@@ -1,0 +1,162 @@
+{
+  "id": "vBAwZzimOvloiW5B",
+  "name": "model_main",
+  "type": "custom",
+  "desc": "主界面的模型管理",
+  "attr": [],
+  "enable": true,
+  "properties": [
+    {
+      "id": "zpGmEr2Sw22Murmt",
+      "name": "systime",
+      "desc": "系统时间",
+      "type": "tm",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": true,
+      "interval": 1000,
+      "default": "2024/06/24 20:52:07",
+      "model_id": "0x0020",
+      "use_system": false
+    },
+    {
+      "id": "CcOknqeRCfSvYGzH",
+      "name": "sd_icon",
+      "desc": "",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_SD_CLOSE",
+      "model_id": "0x0021",
+      "use_system": false
+    },
+    {
+      "id": "yewWgitNegngKfhd",
+      "name": "battery",
+      "desc": "",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_CHAR",
+      "model_id": "0x0022",
+      "use_system": false
+    },
+    {
+      "id": "GV94payLeCHARwn5",
+      "name": "sys_prompt",
+      "desc": "系统提示语",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "",
+      "model_id": "0x0025",
+      "use_system": false
+    },
+    {
+      "id": "eHpzOoU84X0FIv1s",
+      "name": "headlamp",
+      "desc": "前照灯图标显隐控制",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "model_id": "0x0026",
+      "use_system": false
+    },
+    {
+      "id": "yHrPtaREMn148yh4",
+      "name": "sys_prompt_show",
+      "desc": "系统提示语显隐控制",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "model_id": "0x0027",
+      "use_system": false
+    },
+    {
+      "id": "pSYT5m0kp1K98OSg",
+      "name": "show_del_btn",
+      "model_id": "0x0064",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "use_system": false
+    },
+    {
+      "id": "q1KYAE9NC3Fy0WTZ",
+      "name": "hide_del_btn",
+      "model_id": "0x0065",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "use_system": false
+    },
+    {
+      "id": "6HRV1E5yCLYAkDrA",
+      "name": "show_home_btn",
+      "model_id": "0x0067",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "use_system": false
+    },
+    {
+      "id": "ypvnwPZSEGreqp0V",
+      "name": "hide_home_btn",
+      "model_id": "0x0068",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "use_system": false
+    }
+  ],
+  "methods": [],
+  "model_id": "0x001F"
+}

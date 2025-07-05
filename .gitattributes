@@ -1,0 +1,9 @@
+# 所有文本文件使用 LF 行尾符
+*.c text eol=lf
+*.h text eol=lf
+*.json text eol=lf
+*.config text eol=lf
+
+# 二进制文件不转换
+*.png binary
+*.bin binary

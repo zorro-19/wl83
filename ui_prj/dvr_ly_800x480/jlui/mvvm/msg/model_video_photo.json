@@ -1,0 +1,294 @@
+{
+  "id": "2L3PZcOWlr0VNDyW",
+  "name": "model_video_photo",
+  "type": "custom",
+  "desc": "拍照模式的模型管理",
+  "attr": [],
+  "enable": true,
+  "properties": [
+    {
+      "id": "5Fs7tD3TSVp2KyRB",
+      "name": "resolution_icon",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "1M",
+      "model_id": "0x0047",
+      "use_system": false
+    },
+    {
+      "id": "vWiICqOdXxXxJ5Sq",
+      "name": "AWB_icon",
+      "desc": "awb图标",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_AWB_AUTO",
+      "model_id": "0x0048",
+      "use_system": false
+    },
+    {
+      "id": "U6PlJnYhD6qj3Cqf",
+      "name": "quality_icon",
+      "desc": "图片质量图标",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_Q3",
+      "model_id": "0x0049",
+      "use_system": false
+    },
+    {
+      "id": "3FmhLgMS0Rf4sASU",
+      "name": "shot_mode_icon",
+      "desc": "",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_TIMING_PHOTO_2",
+      "model_id": "0x004A",
+      "use_system": false
+    },
+    {
+      "id": "vJBFxmDtNd72WB4P",
+      "name": "show_handshake",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x004B",
+      "use_system": false
+    },
+    {
+      "id": "FOUFl8n4QJL9pTFG",
+      "name": "hide_handshake",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x004C",
+      "use_system": false
+    },
+    {
+      "id": "Snq95HVDJ5DwmfaH",
+      "name": "show_shots",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x004D",
+      "use_system": false
+    },
+    {
+      "id": "aVcnzak1mfVI5qvf",
+      "name": "hide_shots",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x004E",
+      "use_system": false
+    },
+    {
+      "id": "HdRJkdxv0DJVWvah",
+      "name": "show_shots_mode",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x004F",
+      "use_system": false
+    },
+    {
+      "id": "2e2ytaMpYik28T23",
+      "name": "hide_shots_mode",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x0050",
+      "use_system": false
+    },
+    {
+      "id": "7excaoAbQbLtRuPB",
+      "name": "photo_remain",
+      "desc": "剩余可拍照数",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "99999999",
+      "model_id": "0x0051",
+      "use_system": false
+    },
+    {
+      "id": "B6QGmmtADedw9S6Y",
+      "name": "pexp_icon",
+      "model_id": "0x0075",
+      "desc": "曝光图标",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_EXP_A0",
+      "use_system": false
+    },
+    {
+      "id": "jOAPaWr2qsP1vIoI",
+      "name": "iso_icon",
+      "model_id": "0x0046",
+      "desc": "iso图标",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_ISO_AUTO",
+      "use_system": false
+    },
+    {
+      "id": "DFGI2dL24RoeyrtC",
+      "name": "delay_sate",
+      "model_id": "0x0076",
+      "desc": "显示或隐藏拍照方式图标",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "HghlCmozAgLHRssy",
+      "name": "delay_icon",
+      "model_id": "0x0077",
+      "desc": "拍照方式图标",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_DL2",
+      "use_system": false
+    },
+    {
+      "id": "jt6wOvK5qhwCyu0X",
+      "name": "handshake_icon",
+      "model_id": "0x0078",
+      "desc": "防手抖图标",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_SHAKE_OFF",
+      "use_system": false
+    },
+    {
+      "id": "RzgM6IrYluc0NaRY",
+      "name": "shots_icon",
+      "model_id": "0x0079",
+      "desc": "连拍图标",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "SQE0ceGujNpWgY2f",
+      "name": "photo_reso",
+      "model_id": "0x007A",
+      "desc": "拍照分辨率",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "VGA",
+      "use_system": false
+    }
+  ],
+  "methods": [],
+  "model_id": "0x0045"
+}

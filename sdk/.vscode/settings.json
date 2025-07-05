@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "iterator": "c",
+        "complex": "c",
+        "__locale": "c",
+        "cstdio": "c"
+    }
+}

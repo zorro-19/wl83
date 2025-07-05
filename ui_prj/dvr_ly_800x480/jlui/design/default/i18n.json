@@ -1,0 +1,1958 @@
+{
+  "keys": [
+    {
+      "content": "lcdprotect"
+    },
+    {
+      "content": "poweroff"
+    },
+    {
+      "content": "frequency"
+    },
+    {
+      "content": "speaker"
+    },
+    {
+      "content": "language"
+    },
+    {
+      "content": "software"
+    },
+    {
+      "content": "carnum"
+    },
+    {
+      "content": "roadline"
+    },
+    {
+      "content": "lamp"
+    },
+    {
+      "content": "formatting"
+    },
+    {
+      "content": "reset"
+    },
+    {
+      "content": "date"
+    },
+    {
+      "content": "close"
+    },
+    {
+      "content": "open"
+    },
+    {
+      "content": "subpagewarning0"
+    },
+    {
+      "content": "subpagewarning1"
+    },
+    {
+      "content": "subpagewarning2"
+    },
+    {
+      "content": "YES"
+    },
+    {
+      "content": "CANCEL"
+    },
+    {
+      "content": "shoot"
+    },
+    {
+      "content": "dealy10s"
+    },
+    {
+      "content": "dealy5s"
+    },
+    {
+      "content": "dealy2s"
+    },
+    {
+      "content": "nodealy"
+    },
+    {
+      "content": "standard"
+    },
+    {
+      "content": "pool"
+    },
+    {
+      "content": "high"
+    },
+    {
+      "content": "strong"
+    },
+    {
+      "content": "soft"
+    },
+    {
+      "content": "mono"
+    },
+    {
+      "content": "Nostalgia"
+    },
+    {
+      "content": "acuity"
+    },
+    {
+      "content": "sunshine"
+    },
+    {
+      "content": "cloudy"
+    },
+    {
+      "content": "fluolamp"
+    },
+    {
+      "content": "default"
+    },
+    {
+      "content": "resolution"
+    },
+    {
+      "content": "shots"
+    },
+    {
+      "content": "quality"
+    },
+    {
+      "content": "sharpness"
+    },
+    {
+      "content": "awb"
+    },
+    {
+      "content": "color"
+    },
+    {
+      "content": "exposure"
+    },
+    {
+      "content": "handshake"
+    },
+    {
+      "content": "preview"
+    },
+    {
+      "content": "doublerec"
+    },
+    {
+      "content": "cycrec"
+    },
+    {
+      "content": "gaprec"
+    },
+    {
+      "content": "motion"
+    },
+    {
+      "content": "gsensor"
+    },
+    {
+      "content": "record"
+    },
+    {
+      "content": "guard"
+    },
+    {
+      "content": "Lsensitive"
+    },
+    {
+      "content": "Msensitive"
+    },
+    {
+      "content": "Hsensitive"
+    },
+    {
+      "content": "tung"
+    },
+    {
+      "content": "sysprompt"
+    },
+    {
+      "content": "lowpow"
+    },
+    {
+      "content": "nofile"
+    },
+    {
+      "content": "nosd"
+    },
+    {
+      "content": "nocamera"
+    },
+    {
+      "content": "fileerr"
+    },
+    {
+      "content": "format_succ"
+    },
+    {
+      "content": "sys_reset"
+    },
+    {
+      "content": "format_failed"
+    },
+    {
+      "content": "sys_reset_failed"
+    },
+    {
+      "content": "subpagewarning3"
+    },
+    {
+      "content": "update_tips"
+    },
+    {
+      "content": "line_drift_horizon"
+    },
+    {
+      "content": "line_drift_car"
+    },
+    {
+      "content": "cancel"
+    },
+    {
+      "content": "ensure"
+    },
+    {
+      "content": "sd_update"
+    },
+    {
+      "content": "Mon"
+    },
+    {
+      "content": "Tue"
+    },
+    {
+      "content": "Wed"
+    },
+    {
+      "content": "Thu"
+    },
+    {
+      "content": "Fir"
+    },
+    {
+      "content": "Sat"
+    },
+    {
+      "content": "Sun"
+    },
+    {
+      "content": "del_file"
+    },
+    {
+      "content": "lock_file"
+    },
+    {
+      "content": "unlock_file"
+    },
+    {
+      "content": "unlock_all"
+    },
+    {
+      "content": "file_is_lock"
+    },
+    {
+      "content": "del_all"
+    },
+    {
+      "content": "lock_all"
+    },
+    {
+      "content": "chinese_simplified"
+    },
+    {
+      "content": "hdr"
+    },
+    {
+      "content": "tv_mode"
+    },
+    {
+      "content": "ver"
+    },
+    {
+      "content": "msd"
+    },
+    {
+      "content": "pc_cam"
+    },
+    {
+      "content": "video_rec"
+    },
+    {
+      "content": "format_warning"
+    },
+    {
+      "content": "reset_warning"
+    },
+    {
+      "content": "delete"
+    },
+    {
+      "content": "protection"
+    },
+    {
+      "content": "delete_current"
+    },
+    {
+      "content": "delete_all"
+    },
+    {
+      "content": "lock_one"
+    },
+    {
+      "content": "ulock_one"
+    },
+    {
+      "content": "all_lock"
+    },
+    {
+      "content": "all_ulock"
+    },
+    {
+      "content": "del_cur_file"
+    },
+    {
+      "content": "del_all_file"
+    },
+    {
+      "content": "reso"
+    },
+    {
+      "content": "iso"
+    },
+    {
+      "content": "date_label"
+    },
+    {
+      "content": "auto"
+    },
+    {
+      "content": "normal"
+    },
+    {
+      "content": "being_formatted"
+    },
+    {
+      "content": "fs_err"
+    },
+    {
+      "content": "gap_err"
+    }
+  ],
+  "data": [
+    {
+      "content": "zh_CN",
+      "font": "FangZhengKaiTiJianTi_1",
+      "fontSize": 22,
+      "data": {
+        "lcdprotect": {
+          "content": "屏保",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "poweroff": {
+          "content": "自动关机",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "frequency": {
+          "content": "光源频率",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "speaker": {
+          "content": "按键声音",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "language": {
+          "content": "语言设置",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "carnum": {
+          "content": "车牌号码",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "roadline": {
+          "content": "车道偏移",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "lamp": {
+          "content": "前照灯",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "formatting": {
+          "content": "格式化",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "reset": {
+          "content": "默认设置",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "close": {
+          "content": "关闭",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "open": {
+          "content": "打开",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "subpagewarning0": {
+          "content": "警告\\n\\n点击确认删除所有数据",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "subpagewarning1": {
+          "content": "警告\\n\\n没有内存卡",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "subpagewarning2": {
+          "content": "警告\\n\\n(version:BETA 004)\\n恢复出厂设置",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "YES": {
+          "content": "确认",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "CANCEL": {
+          "content": "取消",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "date": {
+          "content": "日期时间",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "shoot": {
+          "content": "拍摄方式",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "dealy10s": {
+          "content": "10秒定时",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "dealy5s": {
+          "content": "5秒定时",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "dealy2s": {
+          "content": "2秒定时",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "nodealy": {
+          "content": "单拍",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "standard": {
+          "content": "标准",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "pool": {
+          "content": "经济",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "high": {
+          "content": "优质",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "strong": {
+          "content": "强烈",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "soft": {
+          "content": "柔和",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "mono": {
+          "content": "黑白",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Nostalgia": {
+          "content": "怀旧",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "acuity": {
+          "content": "图像锐度",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sunshine": {
+          "content": "日光",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "cloudy": {
+          "content": "阴天",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "fluolamp": {
+          "content": "荧光灯",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "default": {
+          "content": "默认",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "resolution": {
+          "content": "图像大小",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "shots": {
+          "content": "连拍",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "quality": {
+          "content": "图像质量",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sharpness": {
+          "content": "锐度",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "exposure": {
+          "content": "曝光补偿",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "awb": {
+          "content": "白平衡",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "color": {
+          "content": "色彩",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "handshake": {
+          "content": "防手抖",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "preview": {
+          "content": "快速预览",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "doublerec": {
+          "content": "双路录像",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "cycrec": {
+          "content": "循环录像",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "gaprec": {
+          "content": "间隔录像",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "motion": {
+          "content": "运动检测",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "gsensor": {
+          "content": "重力感应",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "record": {
+          "content": "录音",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "guard": {
+          "content": "停车守卫",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Lsensitive": {
+          "content": "低灵敏度",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Msensitive": {
+          "content": "中灵敏度",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Hsensitive": {
+          "content": "高灵敏度",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "tung": {
+          "content": "钨丝灯",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sysprompt": {
+          "content": "准备好了吗~",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "lowpow": {
+          "content": "电量不足",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "nofile": {
+          "content": "没有文件",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "nosd": {
+          "content": "SD卡未插入",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "nocamera": {
+          "content": "摄像头掉线了",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "fileerr": {
+          "content": "文件损坏",
+          "font": "FangZhengKaiTiJianTi_1",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "format_succ": {
+          "content": "格式化成功！",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sys_reset": {
+          "content": "恢复出厂设置成功！",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "format_failed": {
+          "content": "格式化失败！",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sys_reset_failed": {
+          "content": "恢复出厂设置失败！",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "software": {
+          "content": "软件版本",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "subpagewarning3": {
+          "content": "版本: JL V1.0.0",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "update_tips": {
+          "content": "请勿断电，升级中",
+          "font": "",
+          "fontSize": 26,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "line_drift_car": {
+          "content": "请移动至车头",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "line_drift_horizon": {
+          "content": "请移动至地平线",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "cancel": {
+          "content": "取消",
+          "font": "",
+          "fontSize": 24,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "ensure": {
+          "content": "确定",
+          "font": "",
+          "fontSize": 24,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sd_update": {
+          "content": "是否进行 SD卡升级？",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Mon": {
+          "content": "星期一",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Tue": {
+          "content": "星期二",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Wed": {
+          "content": "星期三",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Thu": {
+          "content": "星期四",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Fir": {
+          "content": "星期五",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Sat": {
+          "content": "星期六",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Sun": {
+          "content": "星期日",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "del_file": {
+          "content": "是否删除选中的文件？",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "lock_file": {
+          "content": "是否加锁选中的文件？",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "unlock_file": {
+          "content": "是否解锁选中的文件？",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "file_is_lock": {
+          "content": "文件已加锁",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "del_all": {
+          "content": "是否删除全部文件？",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "unlock_all": {
+          "content": "是否解锁全部文件？",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "lock_all": {
+          "content": "是否加锁全部文件？",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "chinese_simplified": {
+          "content": "简体中文",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "hdr": {
+          "content": "高动态范围",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "tv_mode": {
+          "content": "电视制式",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "ver": {
+          "content": "版本",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "msd": {
+          "content": "存储器",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "pc_cam": {
+          "content": "PC摄像头",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "video_rec": {
+          "content": "录像模式",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "format_warning": {
+          "content": "格式化\\n删除所有数据",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "reset_warning": {
+          "content": "恢复默认设置？",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "delete": {
+          "content": "删除",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "protection": {
+          "content": "保护",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "delete_current": {
+          "content": "删除当前",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "delete_all": {
+          "content": "全部删除",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "lock_one": {
+          "content": "加锁当前",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "ulock_one": {
+          "content": "解锁当前",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "all_lock": {
+          "content": "全部加锁",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "all_ulock": {
+          "content": "解锁全部",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "del_cur_file": {
+          "content": "删除当前文件？",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "del_all_file": {
+          "content": "删除所有文件？",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "reso": {
+          "content": "分辨率",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "date_label": {
+          "content": "日期标签",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "iso": {
+          "content": "ISO",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "auto": {
+          "content": "自动",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "normal": {
+          "content": "无特效",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "being_formatted": {
+          "content": "正在格式化中...",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "fs_err": {
+          "content": "TF卡异常!",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "gap_err": {
+          "content": "请关闭缩时录影!",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        }
+      }
+    },
+    {
+      "content": "en",
+      "font": "FangZhengKaiTiJianTi_1",
+      "fontSize": 22,
+      "data": {
+        "lcdprotect": {
+          "content": "screensaver",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "poweroff": {
+          "content": "auto shutdown",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "frequency": {
+          "content": "frequency",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "reset": {
+          "content": "default setting",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "formatting": {
+          "content": "formatting",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "lamp": {
+          "content": "headlamp",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "roadline": {
+          "content": "Lane drift",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "carnum": {
+          "content": "License plate",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "language": {
+          "content": "language",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "speaker": {
+          "content": "keying tone",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "close": {
+          "content": "close",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "open": {
+          "content": "open",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "subpagewarning0": {
+          "content": "Warning\\n\\n Click to confirm deletion of all data",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "subpagewarning1": {
+          "content": "Warning\\n\\n No memory card",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "subpagewarning2": {
+          "content": "Warning\\n\\n (version:BETA 004)\\n Restore factory settings",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "YES": {
+          "content": "YES",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "CANCEL": {
+          "content": "CANCEL",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "date": {
+          "content": "date",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "shoot": {
+          "content": "Shooting method",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "dealy10s": {
+          "content": "timing 10s",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "dealy5s": {
+          "content": "timing 5s",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "dealy2s": {
+          "content": "timing 2s",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "nodealy": {
+          "content": "Single shot",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "standard": {
+          "content": "standard",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "pool": {
+          "content": "pool",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "high": {
+          "content": "high quality",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "strong": {
+          "content": "strong",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "soft": {
+          "content": "soft",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "mono": {
+          "content": "black and white",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Nostalgia": {
+          "content": "Nostalgia",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "acuity": {
+          "content": "acuity",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sunshine": {
+          "content": "sunshine",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "cloudy": {
+          "content": "cloudy",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "fluolamp": {
+          "content": "fluorescent",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "default": {
+          "content": "default",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "resolution": {
+          "content": "resolution",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "shots": {
+          "content": "shots",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "quality": {
+          "content": "image quality",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sharpness": {
+          "content": "sharpness",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "exposure": {
+          "content": "exposure",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "awb": {
+          "content": "AWB",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "color": {
+          "content": "COLOR",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "handshake": {
+          "content": "handshake",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "preview": {
+          "content": "preview",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "guard": {
+          "content": "Parking Guard",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "record": {
+          "content": "sound recording",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "gsensor": {
+          "content": "Gravity induction",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "motion": {
+          "content": "motion detection",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "gaprec": {
+          "content": "Interval recording",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "doublerec": {
+          "content": "Dual channel recording",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "cycrec": {
+          "content": "Loop recording",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Lsensitive": {
+          "content": "Low sensitive",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Msensitive": {
+          "content": "middle sensitive",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Hsensitive": {
+          "content": "high sensitive",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "tung": {
+          "content": "Tungsten lamp",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sysprompt": {
+          "content": "are you ready？",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "lowpow": {
+          "content": "low battery",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "nofile": {
+          "content": "no file",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "nosd": {
+          "content": "no sd card",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "nocamera": {
+          "content": "camera lost",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "fileerr": {
+          "content": "file err",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "format_succ": {
+          "content": "format successfully!",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sys_reset": {
+          "content": "system reset successfully!",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "format_failed": {
+          "content": "format failed!",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sys_reset_failed": {
+          "content": "system reset failed!",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "software": {
+          "content": "software version",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "subpagewarning3": {
+          "content": "Version: JL V1.0.0",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "update_tips": {
+          "content": "Do not power off, upgrade",
+          "font": "",
+          "fontSize": 26,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "line_drift_car": {
+          "content": "Please move to the front",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "line_drift_horizon": {
+          "content": "Please move to the horizon",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "cancel": {
+          "content": "cancel",
+          "font": "",
+          "fontSize": 24,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "ensure": {
+          "content": "ensure",
+          "font": "",
+          "fontSize": 24,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "sd_update": {
+          "content": "Whether to upgrade the SD card?",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Mon": {
+          "content": "Monday",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Tue": {
+          "content": "Tuesday",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Wed": {
+          "content": "Wednesday",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Thu": {
+          "content": "Thursday",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Fir": {
+          "content": "Firday",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Sat": {
+          "content": "Saturday",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "Sun": {
+          "content": "星期天",
+          "font": "",
+          "fontSize": 48,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "del_file": {
+          "content": "Do you want to delete the selected file?",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "lock_file": {
+          "content": "Do you want to lock the selected file?",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "unlock_file": {
+          "content": "Do you want to unlock the selected file?",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "file_is_lock": {
+          "content": "The file is locked!",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "del_all": {
+          "content": "Do you want to delete all files?",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "unlock_all": {
+          "content": "Do you want to unlock all files?",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "lock_all": {
+          "content": "Do you want to lock all files?",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "chinese_simplified": {
+          "content": "chinese simplified",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "hdr": {
+          "content": "HDR",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "tv_mode": {
+          "content": "TV Mode",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "ver": {
+          "content": "version",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "msd": {
+          "content": "Mass Storage",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "pc_cam": {
+          "content": "PC Camera",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "video_rec": {
+          "content": "REC_mode",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "format_warning": {
+          "content": "Format\\nDelete all data",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "reset_warning": {
+          "content": "Restore Default",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "delete": {
+          "content": "Delete",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "protection": {
+          "content": "Protection",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "delete_current": {
+          "content": "Delete Current",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "delete_all": {
+          "content": "Delete All",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "lock_one": {
+          "content": "Lock One",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "ulock_one": {
+          "content": "Ulock One",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "all_lock": {
+          "content": "Lock All",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "all_ulock": {
+          "content": "Ulock All",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "del_cur_file": {
+          "content": "Erase This ?",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "del_all_file": {
+          "content": "Erase All File ?",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "reso": {
+          "content": "Resolution",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "date_label": {
+          "content": "Date Stamp",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "iso": {
+          "content": "ISO",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "auto": {
+          "content": "Auto",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "normal": {
+          "content": "Normal",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "being_formatted": {
+          "content": "Being formatted...",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "fs_err": {
+          "content": "The TF card is abnormal!",
+          "font": "",
+          "fontSize": 22,
+          "isTransform": false,
+          "isArgs": false
+        },
+        "gap_err": {
+          "content": "Please turn off the time-lapse recording!",
+          "font": "",
+          "fontSize": 0,
+          "isTransform": false,
+          "isArgs": false
+        }
+      }
+    }
+  ]
+}

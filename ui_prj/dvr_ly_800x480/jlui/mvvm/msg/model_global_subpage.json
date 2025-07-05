@@ -1,0 +1,339 @@
+{
+  "id": "vrbgQyTyhElwI1ib",
+  "name": "model_global_subpage",
+  "type": "custom",
+  "desc": "通用菜单子页模型管理",
+  "attr": [],
+  "enable": true,
+  "properties": [
+    {
+      "id": "krbPfxTVKwIeGNPd",
+      "name": "subpage_icon",
+      "desc": "子页面图标",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_RESOLUTION_RATIO",
+      "model_id": "0x000B",
+      "use_system": false
+    },
+    {
+      "id": "2FUh6rp6arGJ3vP4",
+      "name": "funckey1",
+      "desc": "功能键1的内容",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "funckey1",
+      "model_id": "0x000C",
+      "use_system": false
+    },
+    {
+      "id": "eHJEAFPf8iHilCgH",
+      "name": "funckey2",
+      "desc": "功能键2的内容",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "funckey2",
+      "model_id": "0x000D",
+      "use_system": false
+    },
+    {
+      "id": "HkRyqMIlWkyuEwTo",
+      "name": "funckey3",
+      "desc": "功能键3的内容",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "funckey3",
+      "model_id": "0x000E",
+      "use_system": false
+    },
+    {
+      "id": "QQu3A7BW0IVqjfH3",
+      "name": "funckey4",
+      "desc": "功能键4的内容",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "funckey4",
+      "model_id": "0x000F",
+      "use_system": false
+    },
+    {
+      "id": "x25xbFU8KL1L22Qd",
+      "name": "title",
+      "desc": "子页面标题",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "title",
+      "model_id": "0x0010",
+      "use_system": false
+    },
+    {
+      "id": "a5xq7UNG76WwNdOW",
+      "name": "hide_funckey1",
+      "desc": "隐藏功能键1",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x0011",
+      "use_system": false
+    },
+    {
+      "id": "nWbKrcnns9Q52RU3",
+      "name": "hide_funckey2",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x0012",
+      "use_system": false
+    },
+    {
+      "id": "xalUlMquXVPttaVi",
+      "name": "hide_funckey3",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x0013",
+      "use_system": false
+    },
+    {
+      "id": "0GXVagSP9gN5EkIh",
+      "name": "hide_funckey4",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x0014",
+      "use_system": false
+    },
+    {
+      "id": "lsXJcdYd2fLckAIW",
+      "name": "show_funckey1",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x0015",
+      "use_system": false
+    },
+    {
+      "id": "E84plQN8SlznWOEP",
+      "name": "show_funckey2",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x0016",
+      "use_system": false
+    },
+    {
+      "id": "xKwafS3Ft3X14PiQ",
+      "name": "show_funckey3",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x0017",
+      "use_system": false
+    },
+    {
+      "id": "NneeFzJNVsyjzytL",
+      "name": "show_funckey4",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x0018",
+      "use_system": false
+    },
+    {
+      "id": "HJpI2aIW0oW7wwS6",
+      "name": "roller_opt",
+      "desc": "roller控件滚动项配置",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "1\\n2\\n3\\n",
+      "model_id": "0x0019",
+      "use_system": false
+    },
+    {
+      "id": "R48jwux6xB2oR47g",
+      "name": "show_roller",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x001A",
+      "use_system": false
+    },
+    {
+      "id": "i6huZCDpDnvcU73V",
+      "name": "hide_roller",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [
+        "LV_OBJ_FLAG_HIDDEN"
+      ],
+      "model_id": "0x001B",
+      "use_system": false
+    },
+    {
+      "id": "z5TyUFZ0ju9f2hGh",
+      "name": "state_funkey1",
+      "desc": "功能键状态标志管理模型",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "model_id": "0x001C",
+      "use_system": false
+    },
+    {
+      "id": "yzTGFwCOzFFLhqfR",
+      "name": "state_funkey2",
+      "desc": "",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "model_id": "0x001D",
+      "use_system": false
+    },
+    {
+      "id": "ZvfbG2t3H2RI5SKW",
+      "name": "state_funkey3",
+      "desc": "",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "model_id": "0x001E",
+      "use_system": false
+    },
+    {
+      "id": "PKrfB2G6NN0XcROb",
+      "name": "state_funkey4",
+      "model_id": "0x0069",
+      "desc": "",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "use_system": false
+    }
+  ],
+  "methods": [],
+  "model_id": "0x000A"
+}

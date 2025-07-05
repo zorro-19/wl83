@@ -1,0 +1,162 @@
+{
+  "id": "1vNZZLjp0ZTXJ3gd",
+  "name": "model",
+  "type": "custom",
+  "desc": "",
+  "attr": [],
+  "enable": true,
+  "properties": [
+    {
+      "id": "IwSG2FuHNuz7Awlt",
+      "name": "cur_time",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "00:00",
+      "model_id": "0x0001",
+      "use_system": false
+    },
+    {
+      "id": "2jzHkAwArIHQ1Qr0",
+      "name": "prev_file",
+      "desc": "",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_SKIP_PREVIOUS",
+      "model_id": "0x0002",
+      "use_system": false
+    },
+    {
+      "id": "Lx9Wlj4D7pGUUTJo",
+      "name": "next_file",
+      "desc": "",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_SKIP_NEXT",
+      "model_id": "0x0003",
+      "use_system": false
+    },
+    {
+      "id": "j2gpTZxGXbT1BqBr",
+      "name": "video_pause",
+      "desc": "",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "model_id": "0x0004",
+      "use_system": false
+    },
+    {
+      "id": "Hdxr0PySDbAMmK5a",
+      "name": "cur_time_process",
+      "desc": "",
+      "type": "int32_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": 20,
+      "model_id": "0x0005",
+      "use_system": false
+    },
+    {
+      "id": "9LF8iWis99YilzIq",
+      "name": "file_name",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "正在播放 xxx.avi",
+      "model_id": "0x0006",
+      "use_system": false
+    },
+    {
+      "id": "8CPWTa0Kw2RafmlY",
+      "name": "total_time",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "/02:40",
+      "model_id": "0x0007",
+      "use_system": false
+    },
+    {
+      "id": "TYMWBKLB6zWI9jTo",
+      "name": "file_path",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "storage/sd0/C/DCIM/1/",
+      "model_id": "0x0008",
+      "use_system": false
+    },
+    {
+      "id": "mqts9TXV7BnGKy7W",
+      "name": "file_num",
+      "desc": "",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "",
+      "model_id": "0x0009",
+      "use_system": false
+    },
+    {
+      "id": "mOl59h1JZWKLONqZ",
+      "name": "music_state",
+      "model_id": "0x006A",
+      "desc": "",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "use_system": false
+    }
+  ],
+  "methods": [],
+  "model_id": "0x0000"
+}

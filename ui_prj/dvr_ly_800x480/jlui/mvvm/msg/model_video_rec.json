@@ -1,0 +1,462 @@
+{
+  "id": "Zcz8dhJi7hTEhW58",
+  "name": "model_video_rec",
+  "type": "custom",
+  "desc": "录像模式的模型管理",
+  "attr": [],
+  "enable": true,
+  "properties": [
+    {
+      "id": "df7RBFRG2ZmaSZVq",
+      "name": "cycrec_icon",
+      "desc": "循环录像图标切换",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_CYCLIC_VIDEO_3",
+      "model_id": "0x0053",
+      "use_system": false
+    },
+    {
+      "id": "m6JlJJO5wblNTusd",
+      "name": "delayrec_icon",
+      "desc": "缩时录像时间图标切换",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_INTERVAL_VIDEO_CLOSE",
+      "model_id": "0x0055",
+      "use_system": false
+    },
+    {
+      "id": "FnJoZXvwti8R54k2",
+      "name": "car_nunber",
+      "desc": "车牌号文本",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "京A11111",
+      "model_id": "0x0057",
+      "use_system": false
+    },
+    {
+      "id": "xmkkaEdaVFAee8S8",
+      "name": "rec_reso",
+      "desc": "录像分辨率",
+      "type": "char *",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "720P",
+      "model_id": "0x0058",
+      "use_system": false
+    },
+    {
+      "id": "b1TmKGnwDjrTi56N",
+      "name": "rec_btn",
+      "desc": "录像启动按钮模型",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "model_id": "0x0059",
+      "use_system": false
+    },
+    {
+      "id": "62cujpwl54BYfqrz",
+      "name": "show_gsensor_icon",
+      "desc": "gsensor图标显示",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x005A",
+      "use_system": false
+    },
+    {
+      "id": "fe9xtoUUWJp9MWdA",
+      "name": "hide_gsensor_icon",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x005B",
+      "use_system": false
+    },
+    {
+      "id": "1jbw7HFcgPMLv3yy",
+      "name": "show_guard_icon",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x005C",
+      "use_system": false
+    },
+    {
+      "id": "zhs1Rib6yRK0bWye",
+      "name": "hide_guard_icon",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x005D",
+      "use_system": false
+    },
+    {
+      "id": "nQgzvROg7goBotXw",
+      "name": "show_motion_icon",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x005E",
+      "use_system": false
+    },
+    {
+      "id": "WXDogZP4jRx9t502",
+      "name": "hide_motion_icon",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x005F",
+      "use_system": false
+    },
+    {
+      "id": "xLNwICzBCiEf3bda",
+      "name": "show_hdr_icon",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x0060",
+      "use_system": false
+    },
+    {
+      "id": "1CRjoFcPMYxfeiJJ",
+      "name": "hide_hdr_icon",
+      "desc": "",
+      "type": "lv_obj_flag_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": [],
+      "model_id": "0x0061",
+      "use_system": false
+    },
+    {
+      "id": "I04HhABqDwp3a7x4",
+      "name": "rec_remain_time",
+      "desc": "录像走时/剩余可录像时间",
+      "type": "tm",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "2024/07/02 00:00:00",
+      "model_id": "0x0062",
+      "use_system": false
+    },
+    {
+      "id": "htZa5ZO8CbezGz9o",
+      "name": "rec_time_state",
+      "desc": "",
+      "type": "lv_state_t",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "LV_STATE_DEFAULT",
+      "model_id": "0x0063",
+      "use_system": false
+    },
+    {
+      "id": "ZMtPzJHubEgfGhcC",
+      "name": "video_rec_menu",
+      "model_id": "0x006C",
+      "desc": "录像菜单开关控制",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "l9I7ajpyKtWCQ8UJ",
+      "name": "mic_icon",
+      "model_id": "0x006D",
+      "desc": "mic开关状态图标切换",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_MIC_ON",
+      "use_system": false
+    },
+    {
+      "id": "947EB43BGj7tvS3o",
+      "name": "gsensor_icon",
+      "model_id": "0x006E",
+      "desc": "gsensor灵敏度图标切换",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_I_GRA_L",
+      "use_system": false
+    },
+    {
+      "id": "xso0CPdz8hZ3mkgZ",
+      "name": "sd_icon",
+      "model_id": "0x0054",
+      "desc": "sd卡状态图标",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_CARD_OFFLINE",
+      "use_system": false
+    },
+    {
+      "id": "KP5r8gQcoquIgtD4",
+      "name": "guard_state",
+      "model_id": "0x0056",
+      "desc": "显示或隐藏停车守卫状态图标",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "kV7MgEeD6YAfTCa9",
+      "name": "cyc_state",
+      "model_id": "0x006F",
+      "desc": "显示或者隐藏循环录像状态图标",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "DPvE8HTKfwZIzIHA",
+      "name": "motion_state",
+      "model_id": "0x0070",
+      "desc": "显示或者隐藏移动侦测状态图标",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "ijTS9rqGoIQ3Z6Lx",
+      "name": "gap_state",
+      "model_id": "0x0071",
+      "desc": "显示或者隐藏间隔录像状态图标",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "FaajugjeZfr3DuSx",
+      "name": "hdr_state",
+      "model_id": "0x0072",
+      "desc": "显示或者隐藏HDR状态图标",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "wvfa6TtupbjEKx97",
+      "name": "gra_state",
+      "model_id": "0x0073",
+      "desc": "显示或者隐藏重力感应状态图标",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "DZmE9V1AVeHkmU2Z",
+      "name": "exp_icon",
+      "model_id": "0x0074",
+      "desc": "曝光补偿状态图标",
+      "type": "res image id",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": "RES_EXP_A0",
+      "use_system": false
+    },
+    {
+      "id": "V0YYyFvV2ExiL6GW",
+      "name": "car_num",
+      "model_id": "0x0023",
+      "desc": "车牌号码显示与隐藏",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "ji6QHmWnuyUCmazo",
+      "name": "flash_headlight",
+      "model_id": "0x0024",
+      "desc": "前照灯",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "eEFYqNuF60R3865r",
+      "name": "rec_icon_state",
+      "model_id": "0x0066",
+      "desc": "录像小红点状态",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    },
+    {
+      "id": "9FQTfsnzwNPg74kV",
+      "name": "key_state",
+      "model_id": "0x007B",
+      "desc": "录像文件加锁状态",
+      "type": "bool",
+      "attr": [
+        "readable",
+        "writable"
+      ],
+      "timer_enable": false,
+      "interval": 1000,
+      "default": false,
+      "use_system": false
+    }
+  ],
+  "methods": [],
+  "model_id": "0x0052"
+}

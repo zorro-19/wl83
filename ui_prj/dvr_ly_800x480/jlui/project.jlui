@@ -1,0 +1,184 @@
+{
+  "id": "6F7lLPRmYNlyqPPa",
+  "name": "dvr_ly_800x480(1.3.2)",
+  "preview": "video_rec",
+  "author": {
+    "company": "",
+    "username": "",
+    "email": "",
+    "url": ""
+  },
+  "size": {
+    "width": 800,
+    "height": 480
+  },
+  "entry": "video_rec",
+  "config": {},
+  "createTime": 1747382064026,
+  "updateTime": 1747382431379,
+  "version": "1.0.0",
+  "description": "",
+  "core": {
+    "id": "1867502582951387138",
+    "title": "GENERIC(with tools)",
+    "version": "2.2.3",
+    "content": "<p>支持生成的图片资源为.zip格式，解决内核和工具不适配导致打包失败；注意需要在0.0.15以上(包括0.0.15) 版本使用</p>",
+    "projid": "1795271006784372738",
+    "origin_projid": "1795271006784372738",
+    "versionType": "Release",
+    "createTime": "2024-12-13 17:31:26",
+    "updateTime": "2025-04-28 16:03:04"
+  },
+  "template": {
+    "id": "1867496943126650881",
+    "title": "dvr_ly_800x480(1.3.2)",
+    "version": "1.3.2",
+    "content": "<p><span style=\"color: #e03e2d;\">上传1.3.2版本LY UI模版</span></p>\n<article class=\"4ever-article\" data-clipboard-cangjie=\"[&quot;root&quot;,{&quot;copyFrom&quot;:&quot;im-native&quot;},[&quot;p&quot;,{},[&quot;span&quot;,{&quot;data-type&quot;:&quot;text&quot;},[&quot;span&quot;,{&quot;data-type&quot;:&quot;leaf&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;2025/3/13更新：&quot;]]],[&quot;p&quot;,{}],[&quot;p&quot;,{},[&quot;span&quot;,{&quot;data-type&quot;:&quot;text&quot;},[&quot;span&quot;,{&quot;data-type&quot;:&quot;leaf&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;1、修复多国语言导入后部分字体尺寸混乱；&quot;]]],[&quot;p&quot;,{}],[&quot;p&quot;,{},[&quot;span&quot;,{&quot;data-type&quot;:&quot;text&quot;},[&quot;span&quot;,{&quot;data-type&quot;:&quot;leaf&quot;,&quot;color&quot;:&quot;#FFFFFF&quot;},&quot;2、恢复被清空的roller、ddlist控件选项内容&quot;]]]]\">\n<p>2025/3/13更新：</p>\n<p>1、增加韩语、日语等多国语言；</p>\n<p>&nbsp;</p>\n</article>",
+    "createTime": "2024-12-13 17:09:02",
+    "updateTime": "2025-03-13 21:00:58"
+  },
+  "lvConf": {
+    "LV_HOR_RES_MAX": 0,
+    "LV_VER_RES_MAX": 0,
+    "LV_USE_MEM_MONITOR": false,
+    "LV_COLOR_DEPTH": 16,
+    "LV_COLOR_16_SWAP": false,
+    "LV_MEM_CUSTOM": false,
+    "LV_MEM_SIZE": "2048",
+    "LV_MEM_ADR": false,
+    "LV_MEM_AUTO_DEFRAG": true,
+    "LV_MEM_CUSTOM_INCLUDE": "<stdlib.h>",
+    "LV_MEM_CUSTOM_ALLOC": "malloc",
+    "LV_MEM_CUSTOM_FREE": "free",
+    "LV_USE_GPU": true,
+    "LV_USE_GPU_NXP_PXP": "~~",
+    "LV_USE_GPU_NXP_PXP_AUTO_INIT": "~~",
+    "LV_USE_GPU_NXP_VG_LITE": "~~",
+    "LV_ATTRIBUTE_MEM_ALIGN_SIZE": "~~",
+    "LV_ATTRIBUTE_MEM_ALIGN": "~~",
+    "LV_DISP_DEF_REFR_PERIOD": "30",
+    "LV_USE_PERF_MONITOR": false,
+    "LV_USE_MODEL_DEBUG": false,
+    "LV_USE_HARDWARE_SIMULATOR": false,
+    "LV_BORDER_TYPE": "rounded",
+    "LV_BORDER_RADIUS": 0,
+    "LV_BORDER_COLOR": "#eeeeee",
+    "LV_FS_SD_PATH": "S:/",
+    "LV_FS_FLASH_PATH": "mnt/sdfile/EXT_RESERVED/uipackres/ui/",
+    "LV_COMMON_CODE": "",
+    "LV_SIMULATOR_CODE": "#define LV_COLOR_SCREEN_TRANSP 0",
+    "LV_BOARD_CODE": "",
+    "LV_FONT_SOURCE": "flash",
+    "LV_IMAGE_SOURCE": "flash",
+    "LV_GIF_SOURCE": "flash",
+    "LV_LOTTIE_SOURCE": "flash",
+    "LV_VIDEO_SOURCE": "flash",
+    "LV_FONT_FORMAT": "bin",
+    "LV_IMAGE_FORMAT": "rle",
+    "LV_GIF_FORMAT": "file",
+    "LV_VIDEO_FORMAT": "file",
+    "LV_LOTTIE_FORMAT": "file",
+    "LV_IMAGE_RLE_BLOCK": 2,
+    "LV_IMAGE_RLE_CLUT": 1,
+    "LV_IMAGE_RLE_YUV": 0,
+    "LV_IMAGE_COLOR_FORMAT": 7,
+    "LV_IMAGE_COLOR_SWAP": false,
+    "LV_FONT_BPP": 4,
+    "LV_FONT_BIN_COMPRESSE_TYPE": "rle",
+    "LV_FONT_CARRAY_COMPRESSE_TYPE": "",
+    "LV_FONT_CUT": false,
+    "LV_FONT_USE_CUT": false
+  },
+  "projectSettings": {
+    "color_depth": 16,
+    "Optimizations": "Standard",
+    "theme": "Default",
+    "defaultFont": "montserratMedium",
+    "use_i18n": true,
+    "defaultLang": "zh_CN"
+  },
+  "board": {
+    "id": "#9Q2xwvNHcnzi2MnL",
+    "name": "dvr_800x480_LY",
+    "sdk": "WL83",
+    "version": "1.0.0",
+    "sdk_root": "..\\sdk",
+    "res_path": "..\\sdk\\ui_res",
+    "lvgl_ui_path": "..\\..\\..\\sdk\\apps\\wifi_camera\\lvgl_v8_ui_app\\style_LY",
+    "build_script": "..\\sdk\\copy_ui_res.bat",
+    "download_script": "..\\..\\..\\sdk\\apps\\wifi_camera\\board\\wl83\\ui_build.bat",
+    "chip_type": "WL83",
+    "content": ""
+  },
+  "sdk": {
+    "id": "1869019450560315393",
+    "name": "dvr_ly_800x480_board_V2",
+    "sdk": "WL83",
+    "version": "2.0.0",
+    "patch": {
+      "id": "1869019450560315393",
+      "name": "原始版本",
+      "version": "0.0.0",
+      "updateTime": "2025-01-20 20:09:06"
+    },
+    "updateTime": "2025-01-20 20:09:06"
+  },
+  "screenList": [
+    {
+      "name": "usb_slave",
+      "type": "Standard"
+    },
+    {
+      "name": "video_rec",
+      "type": "Standard"
+    },
+    {
+      "name": "sys_prompt",
+      "type": "TopLayer"
+    },
+    {
+      "name": "sys_setting",
+      "type": "Standard"
+    },
+    {
+      "name": "video_photo",
+      "type": "Standard"
+    },
+    {
+      "name": "video_play",
+      "type": "Standard"
+    },
+    {
+      "name": "video_file",
+      "type": "Standard"
+    },
+    {
+      "name": "video_dir",
+      "type": "Standard"
+    },
+    {
+      "name": "car_parking",
+      "type": "TopLayer"
+    },
+    {
+      "name": "line_drift",
+      "type": "Standard"
+    },
+    {
+      "name": "sys_popwin",
+      "type": "TopLayer"
+    },
+    {
+      "name": "video_dec",
+      "type": "Standard"
+    },
+    {
+      "name": "video_dec_options",
+      "type": "TopLayer"
+    }
+  ],
+  "lvglVersion": "8.3",
+  "screenAllList": [],
+  "screenGroupList": [],
+  "lvConfMd5": "4f2bb60889a45ea3f3a2348ec15576fc"
+}
