@@ -24,4 +24,8 @@ obj/
 .vscode/ 
 *.sublime-*  
 .DS_Store
-Thumbs.db  
+Thumbs.db 
+sdk/cpu/wl83/tools/
+sdk/apps/wifi_camera/board/wl83/AC792N_WIFI_CAMERA.depend
+sdk/apps/wifi_camera/board/wl83/AC792N_WIFI_CAMERA.layout
+

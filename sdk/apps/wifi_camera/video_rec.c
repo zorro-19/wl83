@@ -3732,13 +3732,13 @@ static int video4_rec_start()
 
 
 
-   // req.rec.audio.sample_rate = 8000;
-    req.rec.audio.sample_rate = 0;
+    req.rec.audio.sample_rate = 8000;
+   // req.rec.audio.sample_rate = 0;
     req.rec.audio.channel 	= 1;
     req.rec.audio.volume    = 100;
     req.rec.audio.buf = __this->audio_buf[4];
     req.rec.audio.buf_len = AUDIO4_BUF_SIZE;
-    req.rec.pkg_mute.aud_mute = !db_select("mic");
+    req.rec.pkg_mute.aud_mute = 1;//回放音量静音0数据  !db_select("mic");
 
     req.rec.abr_kbps = video_rec_get_abr(req.rec.width);
     req.rec.IP_interval = 0;
@@ -4140,12 +4140,13 @@ static int video5_rec_start()
 
 
 
-    req.rec.audio.sample_rate =0;// 8000;
+    //req.rec.audio.sample_rate =0;// 8000;
+    req.rec.audio.sample_rate =8000;
     req.rec.audio.channel 	= 1;
     req.rec.audio.volume    = 100;
     req.rec.audio.buf = __this->audio_buf[5];
     req.rec.audio.buf_len = AUDIO5_BUF_SIZE;
-    req.rec.pkg_mute.aud_mute = !db_select("mic");
+    req.rec.pkg_mute.aud_mute =1;// !db_select("mic");
 
     req.rec.abr_kbps = video_rec_get_abr(req.rec.width);
     req.rec.IP_interval = 0;

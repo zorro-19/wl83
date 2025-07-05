@@ -5,6 +5,7 @@
 #include "server/net_server.h"
 #include "app_config.h"
 #include "server/audio_dev.h"
+#include "video_buf_config.h"
 
 #include "video_rec.h"
 #ifdef PRODUCT_TEST_ENABLE
@@ -42,7 +43,7 @@ struct user_video_hdl {
     u8 req_send;
     u8 *user_isc_buf;
     u8 *user_video_buf;
-    /* u8 *user_audio_buf; */
+    u8 *user_audio_buf;
     struct server *user_video_rec;
     u32(*video_rt_cb)(void *, u8 *, u32);
     void *cb_priv;
@@ -165,6 +166,14 @@ void *user_video_rec_open(const char *video_name, u8 id)
         }
     }
 
+    if (!handle->user_audio_buf[id]) {
+                handle->user_audio_buf[id] = malloc(AUDIO4_BUF_SIZE);
+                if (handle->user_audio_buf[id]== NULL) {
+                    log_i("err maloo\n");
+
+                }
+    }
+
     #if  0
     if (!handle->user_isc_buf) {
         handle->user_isc_buf = malloc(CONFIG_USER_VIDEO_ISC_SBUF_SIZE);
@@ -250,8 +259,8 @@ void *user_video_rec_open(const char *video_name, u8 id)
     req.rec.audio.sample_rate = CONFIG_USER_VIDEO_REC_AUDIO_SAMPLE_RATE;//音频采样率
     req.rec.audio.channel = 1;
     req.rec.audio.volume = 100;//音频增益0-100
-    req.rec.audio.buf = NULL;//音频BUFF
-    req.rec.audio.buf_len = 0;//音频BUFF长度
+    req.rec.audio.buf = handle->user_audio_buf[id];//音频BUFF
+    req.rec.audio.buf_len = AUDIO4_BUF_SIZE;//音频BUFF长度
     req.rec.audio.aud_interval_size = 1024;
 
     req.rec.abr_kbps = user_video_rec_get_abr(req.rec.width);//JPEG图片码率
